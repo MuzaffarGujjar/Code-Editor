@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css">           
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <div class="box">
+                    <label for=""><i class="fa-brands fa-html5"></i> HTML</label>
+                    <textarea id="html-code" onkeyup="run()"></textarea>
+                </div>
+
+                <div class="box">
+                    <label for=""><i class="fa-brands fa-css3-alt"></i> CSS</label>
+                    <textarea id="css-code" onkeyup="run()"></textarea>
+                </div>
+
+                <div class="box">
+                    <label for=""><i class="fa-brands fa-js"></i> JavaScript</label>
+                    <textarea id="js-code" onkeyup="run()"></textarea>
+                </div>
+            </div>
+            <div class="right">
+                <label for=""><i class="fa-solid fa-play"></i> Output</label>
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+            <script src="./script.js"></script>
+    </body>
+</html>
+
+<!-- <button onclick = "run(this)">click</button>
+button{
+background: red;
+color: white;
+padding: 10px 25px;
+font-size: 18px;
+border-radius: 5px;
+border: none;
+}
+
+function run(x){
+
+x.style.background: "black";
+
+} -->
